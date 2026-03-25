@@ -10,7 +10,7 @@
       "shortDescription":"MATLAB-Simulink Model for ACIM Control: Sensored FOC (Incremental Encoder), Sensorless FOC, and V/F Control: MCHV-230VAC-1.5kW Development Board and dsPIC33AK128MC106 Motor Control DIM",
       "simulationTool":{
          "name":"MATLAB/Simulink",
-         "semverRange":">=2025b"
+         "semverRange":">=2025"
       },
 	  "addonPackages":[
 				"MATLAB add on packages",
