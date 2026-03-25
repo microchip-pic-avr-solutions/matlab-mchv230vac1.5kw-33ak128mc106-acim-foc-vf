@@ -1,28 +1,33 @@
 {
    "metaDataVersion":"1.0.0",
-   "category":"com.microchip.ide.project",
+   "category":"com.microchip.matlab.project",
    "content":{
-      "metaDataVersion":"1.3.0",
+      "metaDataVersion":"1.0.0",
       "name":"com.microchip.mplabx.project.matlab-mchv230vac1.5kw-33ak128mc106-acim-foc-vf",
-      "version":"x.x.x",
-      "displayName":"xxxxxxxxxxxxxxx",
+      "version":"1.0.0",
+      "displayName":"MATLAB-Simulink model for ACIM Control (Sensored FOC, Sensorless FOC and V/F Control) ",
       "projectName":"matlab-mchv230vac1.5kw-33ak128mc106-acim-foc-vf",
-      "shortDescription":"xxxxxxxxxxxxxxx",
-      "ide":{
-         "name":"MPLABX",
-         "semverRange":">=5.40.0"
+      "shortDescription":"MATLAB-Simulink Model for ACIM Control: Sensored FOC (Incremental Encoder), Sensorless FOC, and V/F Control: MCHV-230VAC-1.5kW Development Board and dsPIC33AK128MC106 Motor Control DIM",
+      "simulationTool":{
+         "name":"MATLAB/Simulink",
+         "semverRange":">=2025"
       },
+	  "addonPackages":[
+				"MATLAB add on packages",
+				"Simulink",
+				"MPLAB Device blocks for Simulink",
+				"Motor Control Blockset",
+				"Embedded Coder",
+				"Fixed-Point Designer",
+            "Stateflow"
+      ],
       "compiler":{
-         "name":"XC16",
-         "semverRange":"^1.50.0"
+         "name":"XC-DSC",
+         "semverRange":"^3.31"
       },
       "dfp":{
-         "name":"xxxxxxxxxxxxxxx",
-         "semverRange":">=x.x.x"
-      },
-	  "configurator": {
-         "name": "MCC",
-         "semverRange": ">=4.0.1"
+         "name":"dsPIC33AK-MC_DFP",
+         "semverRange":">=1.4.172"
       },
       "device":{
          "metaDataVersion":"1.0.0",
@@ -30,13 +35,25 @@
          "content":{
             "metaDataVersion":"1.0.0",
             "category":"com.microchip.device",
-            "name":"xxxxxxxxxxxxxxx",
+            "name":"dsPIC33AK128MC106",
             "versionRange":"*"
          }
       },
       "keywords":[
-         "GPIO",
-         "UART"
+         "ADC",
+         "PWM",
+         "OPAMP",
+         "CMP",
+         "DAC",
+         "QEI",
+         "Motor Control Algorithm",
+	 "Quadrature Encoder",
+         "ACIM",
+	 "V/F Control",
+         "FOC",
+         "Field Weakening",
+         "dsPIC"
+
       ]
    }
 }
