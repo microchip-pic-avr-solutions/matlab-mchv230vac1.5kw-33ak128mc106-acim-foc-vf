@@ -4,7 +4,7 @@
    "content":{
       "metaDataVersion":"1.0.0",
       "name":"com.microchip.mplabx.project.matlab-mchv230vac1.5kw-33ak128mc106-acim-foc-vf",
-      "version":"1.0.0",
+      "version":"1.0.1",
       "displayName":"MATLAB-Simulink model for ACIM Control (Sensored FOC, Sensorless FOC and V/F Control) ",
       "projectName":"matlab-mchv230vac1.5kw-33ak128mc106-acim-foc-vf",
       "shortDescription":"MATLAB-Simulink Model for ACIM Control: Sensored FOC (Incremental Encoder), Sensorless FOC, and V/F Control: MCHV-230VAC-1.5kW Development Board and dsPIC33AK128MC106 Motor Control DIM",
@@ -47,12 +47,13 @@
          "DAC",
          "QEI",
          "Motor Control Algorithm",
-	 "Quadrature Encoder",
+	      "Quadrature Encoder",
          "ACIM",
-	 "V/F Control",
+	      "V/F Control",
          "FOC",
          "Field Weakening",
-         "dsPIC"
+         "dsPIC",
+         "MATLAB"
 
       ]
    }
