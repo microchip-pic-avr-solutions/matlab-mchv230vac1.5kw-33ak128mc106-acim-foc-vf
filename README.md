@@ -30,7 +30,6 @@ Enhance your embedded applications with Microchip's high-performance [dsPIC® Di
 
 - MPLAB® X IDE and IPE **v6.25** 
 - Device Family Pack (DFP): **dsPIC33AK-MC_DFP v1.4.172**
-- Curiosity/Starter Kits Tool Pack : **PKOB4_TP v1.19.1503**
 - MPLAB® XC-DSC Compiler **v3.31**
 - MATLAB R2025b
 - Required MATLAB add-on packages
@@ -122,21 +121,8 @@ Refer ["Motor Control High Voltage 230VAC-1.5kW Development Board User's Guide"]
      > Use only **shielded micro-USB** cables intended for data transfer.
  </br>
 
-## 4. SOFTWARE SETUP AND RUN
-### 4.1 Setup: MPLAB X IDE and MPLAB XC-DSC Compiler
-Install **MPLAB X IDE** and **MPLAB XC-DSC Compiler** versions that support the device **dsPIC33AK128MC106** and **PKoBv4.** The MPLAB X IDE, MPLAB XC-DSC Compiler, and X2C-Scope plug-in used for testing the firmware are mentioned in the [Motor Control Application Firmware Required for the Demonstration](#21-motor-control-application-firmware-required-for-the-demonstration) section. 
 
-To get help on  
-
-- MPLAB X IDE installation, refer [link](https://microchipdeveloper.com/mplabx:installation)
-- MPLAB XC-DSC Compiler installation steps, refer [link](https://developerhelp.microchip.com/xwiki/bin/view/software-tools/xc-dsc/install/)
-
-If MPLAB IDE v8 or earlier is already installed on your computer, then run the MPLAB driver switcher (Installed when MPLAB®X IDE is installed) to switch from MPLAB IDE v8 drivers to MPLAB X IDE drivers. If you have Windows 8 or 10, you must run the MPLAB driver switcher in **Administrator Mode**. To run the Device Driver Switcher GUI application as administrator, right-click on the executable (or desktop icon) and select **Run as Administrator**. For more details, refer to the MPLAB X IDE help topic **“Before You Begin: Install the USB Device Drivers (For Hardware Tools): USB Driver Installation for Windows Operating Systems.”**
-
-### 4.2 Setup: X2C-SCOPE
-X2C-Scope is a MPLAB X IDE plugin that allows developers to interact with an application while it runs. X2C-Scope enables you to read, write, and plot global variables (for motor control) in real-time. It communicates with the target using the UART. To use X2C-Scope, the plugin must be installed. To set up and use X2C-Scope, refer to the instructions provided on the [web page](https://x2cscope.github.io/docs/MPLABX_Plugin.html).
-
-## 5.  BASIC DEMONSTRATION
+## 4.  BASIC DEMONSTRATION
 
 Follow the below instructions, step by step, to set up and run the motor control demo application:
 
